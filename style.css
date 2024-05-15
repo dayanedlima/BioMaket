@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    color:#C59855;
+}
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url("styles/video.css");
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #C59855;
+    --azul-degrade: linear-gradient(97.54deg, #034b22 35.49%, #4b8659 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    display: grid;
+}
+
+.carousel{
+ max-width: 30%;
+ min-width: 30%;
+}
+
+
+#logo{
+    width: 100px;
+}
+
+.rodape{
+    background-color: #C59855;
+    text-align: center;
+    height: 3vh;
+    width: 100vw;
+    margin: 0;
+}
